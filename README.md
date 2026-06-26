@@ -169,8 +169,8 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Lyekaishrath Ibrahim**
+**Lyeka Ishrath.I**
 
-Master's Student (Information Technology)
+MCA(Masster of Computer Application)
 
-Python | Java | Web Scraping | Automation | Git | GitHub
+Python | Web Scraping | Automation | Git | GitHub
