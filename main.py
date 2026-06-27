@@ -29,8 +29,7 @@ for title in titles[:10]:
     headline = title.get_text(strip=True)
 
     link = title.find("a")["href"]
-
-    # Convert relative links to full links
+    
     if link.startswith("item?"):
         link = "https://news.ycombinator.com/" + link
 
@@ -47,9 +46,14 @@ for i, (headline, link) in enumerate(headlines, start=1):
 
 
 sender = "lyeka016@gmail.com"
-receiver = "lyeka016@gmail.com"
-
 app_password = "ixhx yask zvfw ngci"
+
+receivers = [
+    "lyekaishrath123@gmail.com",
+    "lyekaishrath06@gmail.com"
+   
+    
+]
 
 
 email = EmailMessage()
@@ -58,7 +62,7 @@ email["Subject"] = "Daily Tech Headlines"
 
 email["From"] = sender
 
-email["To"] = receiver
+email["To"] = receivers
 
 body = """
 Hello,
@@ -86,10 +90,9 @@ try:
     server.login(sender, app_password)
 
     server.send_message(email)
+    print(f"Email sent successfully to {receivers}")
 
     server.quit()
-
-    print("\nEmail Sent Successfully!")
 
 except Exception as e:
 
