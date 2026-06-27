@@ -45,12 +45,13 @@ for i, (headline, link) in enumerate(headlines, start=1):
     print("-" * 60)
 
 
-sender = "lyeka016@gmail.com"
-app_password = "ixhx yask zvfw ngci"
+sender = "Sender@gmail.com"
+app_password = "enter_your_app_password_here"
 
 receivers = [
-    "lyekaishrath123@gmail.com",
-    "lyekaishrath06@gmail.com"
+    "person1@gmail.com",
+    "person2@gmail.com",
+    "person3@gmail.com"
 ]
 
 
