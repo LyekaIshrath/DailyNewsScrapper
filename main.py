@@ -51,8 +51,6 @@ app_password = "ixhx yask zvfw ngci"
 receivers = [
     "lyekaishrath123@gmail.com",
     "lyekaishrath06@gmail.com"
-   
-    
 ]
 
 
